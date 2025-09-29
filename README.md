@@ -26,7 +26,7 @@ yarn add pawieui
 ```
 
 ## Usage
-
+```
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Button, Input, DateField } from 'pawieui';
@@ -44,3 +44,4 @@ const App = () => {
 
 const root = createRoot(document.getElementById('root')!);
 root.render(<App />);
+```
